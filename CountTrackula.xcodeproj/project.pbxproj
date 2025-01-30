@@ -23,9 +23,9 @@
 		D02E98942BD989640065EE33 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E98932BD989640065EE33 /* Settings.swift */; };
 		D02E98962BD9CB780065EE33 /* WireframeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E98952BD9CB780065EE33 /* WireframeView.swift */; };
 		D02E989A2BDAE3C60065EE33 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E98992BDAE3C60065EE33 /* Double.swift */; };
-		D03B940F2BDC05680069ACA5 /* StickySdkAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D03B940E2BDC05680069ACA5 /* StickySdkAnalytics */; };
-		D03B94122BDC1E9A0069ACA5 /* StickySdkAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D03B94112BDC1E9A0069ACA5 /* StickySdkAnalytics */; };
 		D04816DF2BD88301000D08E4 /* BodiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04816DE2BD88301000D08E4 /* BodiesView.swift */; };
+		D06397F52D4C2B940074E20E /* Boop in Frameworks */ = {isa = PBXBuildFile; productRef = D06397F42D4C2B940074E20E /* Boop */; };
+		D06397FB2D4C2C4A0074E20E /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06397FA2D4C2C4A0074E20E /* Analytics.swift */; };
 		D0B92C682BEACB3700A40907 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B92C672BEACB3700A40907 /* Body.swift */; };
 		D0D935D72BD831F300A600DA /* CountTrackulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D935D62BD831F300A600DA /* CountTrackulaApp.swift */; };
 		D0D935D92BD831F300A600DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D935D82BD831F300A600DA /* ContentView.swift */; };
@@ -44,7 +44,6 @@
 		D0EFDDC32BDC2D7300CA7AB9 /* CountingSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFDDC22BDC2D7300CA7AB9 /* CountingSettingsView.swift */; };
 		D0EFDDC52BDC2DB500CA7AB9 /* BoundarySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFDDC42BDC2DB500CA7AB9 /* BoundarySettingsView.swift */; };
 		D0EFDDC72BDC2E4E00CA7AB9 /* AnalyticsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFDDC62BDC2E4E00CA7AB9 /* AnalyticsSettingsView.swift */; };
-		D0F84D012D4AEB4E00978209 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F84D002D4AEB4E00978209 /* Analytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +64,7 @@
 		D02E98952BD9CB780065EE33 /* WireframeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframeView.swift; sourceTree = "<group>"; };
 		D02E98992BDAE3C60065EE33 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D04816DE2BD88301000D08E4 /* BodiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodiesView.swift; sourceTree = "<group>"; };
+		D06397FA2D4C2C4A0074E20E /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		D0B92C672BEACB3700A40907 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		D0D935D32BD831F300A600DA /* CountTrackula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountTrackula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D935D62BD831F300A600DA /* CountTrackulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTrackulaApp.swift; sourceTree = "<group>"; };
@@ -84,11 +84,20 @@
 		D0EFDDC22BDC2D7300CA7AB9 /* CountingSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSettingsView.swift; sourceTree = "<group>"; };
 		D0EFDDC42BDC2DB500CA7AB9 /* BoundarySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundarySettingsView.swift; sourceTree = "<group>"; };
 		D0EFDDC62BDC2E4E00CA7AB9 /* AnalyticsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsSettingsView.swift; sourceTree = "<group>"; };
-		D0F84D002D4AEB4E00978209 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D06397FE2D4C30260074E20E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = D0D935D22BD831F300A600DA /* CountTrackula */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D0D4E9E02D4AA224002825F9 /* Configuration */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Configuration; sourceTree = "<group>"; };
+		D0D4E9E02D4AA224002825F9 /* Configuration */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (D06397FE2D4C30260074E20E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Configuration; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03B940F2BDC05680069ACA5 /* StickySdkAnalytics in Frameworks */,
-				D03B94122BDC1E9A0069ACA5 /* StickySdkAnalytics in Frameworks */,
+				D06397F52D4C2B940074E20E /* Boop in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +129,7 @@
 		D02E988E2BD969340065EE33 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D0F84D002D4AEB4E00978209 /* Analytics.swift */,
+				D06397FA2D4C2C4A0074E20E /* Analytics.swift */,
 				D02E988F2BD9694F0065EE33 /* IconButtonView.swift */,
 				D02E98932BD989640065EE33 /* Settings.swift */,
 				CA4BD8562BDAC6B700B2062F /* ThermalMonitor.swift */,
@@ -245,8 +253,7 @@
 			);
 			name = CountTrackula;
 			packageProductDependencies = (
-				D03B940E2BDC05680069ACA5 /* StickySdkAnalytics */,
-				D03B94112BDC1E9A0069ACA5 /* StickySdkAnalytics */,
+				D06397F42D4C2B940074E20E /* Boop */,
 			);
 			productName = CountTrackula;
 			productReference = D0D935D32BD831F300A600DA /* CountTrackula.app */;
@@ -277,7 +284,7 @@
 			);
 			mainGroup = D0D935CA2BD831F300A600DA;
 			packageReferences = (
-				D03B94102BDC1E9A0069ACA5 /* XCRemoteSwiftPackageReference "sticky-sdk-analytics-swift" */,
+				D06397F32D4C2B940074E20E /* XCRemoteSwiftPackageReference "boop" */,
 			);
 			productRefGroup = D0D935D42BD831F300A600DA /* Products */;
 			projectDirPath = "";
@@ -319,9 +326,9 @@
 				D02E989A2BDAE3C60065EE33 /* Double.swift in Sources */,
 				D02E98942BD989640065EE33 /* Settings.swift in Sources */,
 				D02E988D2BD968A50065EE33 /* View.swift in Sources */,
+				D06397FB2D4C2C4A0074E20E /* Analytics.swift in Sources */,
 				D02E98902BD9694F0065EE33 /* IconButtonView.swift in Sources */,
 				D0D935EA2BD83C2700A600DA /* CameraHandler.swift in Sources */,
-				D0F84D012D4AEB4E00978209 /* Analytics.swift in Sources */,
 				D0EFDDC72BDC2E4E00CA7AB9 /* AnalyticsSettingsView.swift in Sources */,
 				D0D935F52BD868D300A600DA /* FrameView.swift in Sources */,
 				D0D935F02BD841CD00A600DA /* CGRect.swift in Sources */,
@@ -480,6 +487,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CountTrackula/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Count Trackula";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,6 +518,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CountTrackula/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Count Trackula";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,25 +561,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D03B94102BDC1E9A0069ACA5 /* XCRemoteSwiftPackageReference "sticky-sdk-analytics-swift" */ = {
+		D06397F32D4C2B940074E20E /* XCRemoteSwiftPackageReference "boop" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:sticky/sticky-sdk-analytics-swift.git";
+			repositoryURL = "git@github.com:StickyCulture/boop.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D03B940E2BDC05680069ACA5 /* StickySdkAnalytics */ = {
+		D06397F42D4C2B940074E20E /* Boop */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = StickySdkAnalytics;
-		};
-		D03B94112BDC1E9A0069ACA5 /* StickySdkAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D03B94102BDC1E9A0069ACA5 /* XCRemoteSwiftPackageReference "sticky-sdk-analytics-swift" */;
-			productName = StickySdkAnalytics;
+			package = D06397F32D4C2B940074E20E /* XCRemoteSwiftPackageReference "boop" */;
+			productName = Boop;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
